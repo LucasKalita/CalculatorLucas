@@ -5,7 +5,7 @@ public class FizzBuzz {
     Scanner scanner = new Scanner(System.in);
 
     public void fizzBuzz() {
-        Boolean fb = true;
+        boolean fb = true;
         do{
             System.out.println("enter your number");
         int x = scanner.nextInt();
