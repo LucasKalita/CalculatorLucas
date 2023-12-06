@@ -32,7 +32,8 @@ public class CalculatorUI extends CalculatorSystem {
             int d = scanner.nextInt();
             if (d == 2){
                 System.out.println("Copy, turning off calculator");
-                isRunning = false;}
+                isRunning = false;
+                scanner.close();}
         }while (isRunning);
 
     }

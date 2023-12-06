@@ -9,6 +9,7 @@ public class CalculatorSystem {
         System.out.print("Second number: ");
         double y = scanner.nextDouble();
         System.out.println("Result: " + addition(x, y));
+
     }
 
     public void subtractionMessage() {
@@ -18,6 +19,7 @@ public class CalculatorSystem {
         System.out.print("Subtracted number: ");
         double y = scanner.nextDouble();
         System.out.println("Result: " + subtraction(x, y));
+
     }
 
     public void multiplyMessage() {
@@ -26,6 +28,7 @@ public class CalculatorSystem {
         System.out.print("Second number: ");
         double y = scanner.nextDouble();
         System.out.println("Result: " + multiplication(x, y));
+
     }
 
     public void divisionMessage() {
